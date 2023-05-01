@@ -1,0 +1,14 @@
+# allow ubuntu port 3306
+sudo ufw allow mysql
+
+# run mysql
+sudo systemctl start mysql
+
+# access mysql
+sudo mysql -h localhost -u root -p
+
+# show db
+show databases;
+
+# exit
+quit
